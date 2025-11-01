@@ -40,8 +40,8 @@
 
     .nav-links {
         position: absolute;
-        top: 55px;
-        right: -400%;
+        top: 40px;
+        right: -500%;
         /* Hidden by default */
         flex-direction: column;
         background: var(--blue-crayola);
@@ -53,7 +53,7 @@
     }
 
     .nav-links.active {
-        right: -20px;
+        right: -22px;
         /* Slide in */
     }
 
@@ -63,7 +63,7 @@
         width: 100%;
         flex-direction: column;
         padding: 1px;
-        margin-left: 5px;
+        margin-left: 15px;
     }
 
     .logo-div img {
@@ -172,16 +172,16 @@
     }
 
     .card-data-div {
-        width: 100%;
+        width: 80%;
 
         p {
-            font-size: 18px;
+            font-size: 16px;
             margin-bottom: 10%;
         }
     }
 
     .card-data {
-        font-size: 35px;
+        font-size: 32px;
         width: 100%;
     }
 
@@ -263,6 +263,15 @@
         height: 250px;
         margin-left: -5%;
     }
+
+    .why-btn {}
+
+    .section-about {
+
+        p {
+            margin-bottom: 10%;
+        }
+    }
 }
 
 
@@ -276,7 +285,7 @@
         p {
             padding-inline: 20px;
             margin-left: -5%;
-            margin-bottom: 20px;
+            margin-bottom: 10%;
         }
     }
 

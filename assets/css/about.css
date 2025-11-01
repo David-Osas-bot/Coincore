@@ -618,7 +618,7 @@ header {
         width: 50px;
         height: 50px;
         border-radius: 50%;
-        background-color: #4144a2;
+        background-color: var(--blue-crayola);
         justify-content: center;
         align-items: center;
         text-align: center;
@@ -632,12 +632,12 @@ header {
         }
 
         a i:hover {
-            color: #4144a2;
+            color: var(--white);
         }
     }
 
     div:hover {
-        background-color: #010110;
+        background-color: var(--blue-crayola);
         transform: scale(1.2);
     }
 }
