@@ -62,6 +62,8 @@
         margin-top: 35%;
         width: 100%;
         flex-direction: column;
+        padding: 1px;
+        margin-left: 5px;
     }
 
     .logo-div img {
@@ -76,7 +78,7 @@
         width: 100%;
 
         span {
-            font-size: 30px;
+            font-size: 32px;
         }
 
         p {
@@ -131,7 +133,7 @@
     }
 
     .about-span {
-        font-size: 45px;
+        font-size: 40px;
     }
 
     .about-span-2 {
